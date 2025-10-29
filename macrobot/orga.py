@@ -4,6 +4,8 @@ import urllib.request
 import zipfile
 import shutil
 
+import pandas as pd
+
 def download_test_images(DATA_PATH):
     """Download and unzip test image set from DOI 10.5447/ipk/2020/7"""
 
